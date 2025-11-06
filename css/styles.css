@@ -1,0 +1,134 @@
+/* Start */
+  .card-start:hover {
+    background-color: #50a5c7;
+    transition: 0.4s ease-in-out;
+    transform: translateY(-5px);
+  }
+  .card-start:hover i {
+    color: white !important;
+  }
+  .card-start:hover .card-body h5, .card-start:hover .card-body p {
+    color: white;
+  }
+/* Start */
+
+/* Category */
+.category {
+  z-index: 1;}
+
+  .category-card img {
+      width: 100%;
+      height: 100%;
+      transition: transform 0.3s ease-in-out;
+  }
+  
+  .category-card:hover img {
+      transform: scale(1.05);
+  }
+  
+.card-img-top:hover img{
+transform: scale(1.05);
+}
+.card-img-top img{
+transition: transform 0.3s ease-in-out;
+}
+
+  .category-info {
+      background-color: rgba(255, 255, 255, 0.9);
+      
+  }
+
+  .category-info h5 {
+      margin-bottom: 5px;
+      font-weight: bold;
+      float:right;
+  }
+
+  @media (max-width: 768px) {
+    .categories-section {
+        padding: 30px 15px;
+    }
+  
+    h4, h2 {
+        font-size: 1.5rem;
+    }
+  
+    .category-info {
+        padding: 8px;
+        bottom: 10px;
+    }
+  
+    .category-info h5 {
+        font-size: 16px;
+    }
+  
+    .category-info p {
+        font-size: 12px;
+    }
+  
+    .category-card {
+        margin-bottom: 20px;
+    }
+  
+    .col-6 {
+        width: 100%;
+    }
+  
+    .category-card img {
+        border-radius: 6px;
+    }
+  }
+/* Category */
+
+/* Courses */
+.card-courses img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-courses img:hover {
+  transform: scale(1.1);
+}
+/* Courses */
+
+.category-info {
+    background-color: rgba(255, 255, 255, 0.9);
+    
+}
+
+/* Instructos */
+.card-instructors img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-instructors img:hover {
+  transform: scale(1.1);
+}
+/* Instructors */
+@media (max-width: 768px) {
+  .card-instructors {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .gambar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn-group {
+    bottom: 20px;
+  }
+
+  h4, h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .card-body h5 {
+    font-size: 18px;
+  }
+
+  .card-body p {
+    font-size: 14px;
+  }
+}
